@@ -1,46 +1,70 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+* {
+  background-color:#191919;
+  
+} 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.NavbarBrandText{
+  font-family: 'Inter', sans-serif;
+ 
+  color:#61dafb;
 }
-
 
 .NavbarText{
-  font-family: 'Inter', sans-serif;
+  margin: 25px;
+  color:white;
 }
-.MainContentText{
+
+.navbarbrand{
+  display: flex; 
+  align-items:center;
+}
+
+
+.navbarContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items:center; 
+  background-color:black;
+}
+
+.logoImage{
+  width: 150px;
+  height: 150px;
+}
+
+
+
+
+.mainContentContainer{
+margin:100px;
+
+}
+.MainContentHeading{
   font-family: 'Inter', sans-serif;
+  font-size:75px;
+  color:white;
+}
+
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul>li{
+font-size:50px;
+color:white;
+margin: 40px;
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #61dafb; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 2em; /* Also needed for space (tweak if needed) */
+
 }
