@@ -1,0 +1,107 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0
+}
+
+
+.navbar-container{
+  height:70px;
+  display:flex;
+  
+  padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar-logo{
+  max-width:100px;
+  text-align:center;
+}
+
+
+.hero-image{
+  width:80%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+  display: block;
+}
+
+
+.hero-container{
+  padding: 100px;
+  display:flex;
+  flex-direction:column;
+}
+
+.hero-header{
+
+  font-weight:600;
+  font-size: 80px;
+  font-family: Poppins;
+}
+
+.hero-text{
+  
+  font-size: 50px;
+  font-family: Poppins;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+
+.card-container{
+  position:relative;
+  display:flex;
+  flex-direction: column;
+}
+
+.cardImage{
+  border-radius: 10px;
+  width:300px;
+}
+.innerCardImage{
+  position:absolute;
+  top:5px;
+  border-radius: 10px;
+  left:5px;
+}
+
+.ratingTextContainer{
+display:flex;
+}
+.ratingText{
+  font-size:20px;
+  align-self: center;
+  color: #1F2322;
+}
+.stariconCard{
+  height:25px;
+}
+
+.cardHeader{
+  margin:5px;
+}
+
+.cardPricing{
+  display:flex;
+  flex-direction: row;
+  margin:5px;
+}
+
+.card-container{
+  margin:20px;
+  
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+}
