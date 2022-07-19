@@ -9,7 +9,7 @@
 
 .NavbarBrandText{
   font-family: 'Inter', sans-serif;
- 
+  background-color:black;
   color:#61dafb;
 }
 
@@ -21,6 +21,8 @@
 .navbarbrand{
   display: flex; 
   align-items:center;
+  background-color:black;
+  
 }
 
 
@@ -34,6 +36,7 @@
 .logoImage{
   width: 150px;
   height: 150px;
+  background-color: black;
 }
 
 
@@ -67,4 +70,17 @@ ul li::before {
   display: inline-block; /* Needed to add space between the bullet and the text */ 
   width: 2em; /* Also needed for space (tweak if needed) */
 
+}
+
+
+
+.toggleButton{
+  margin: 30px;
+  height:70px;
+  width:200px;
+ 
+}
+
+.buttonText{
+  font-size:30px;
 }

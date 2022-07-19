@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function MainContent(){
+export default function MainContent(props){
+   
+
     return(
-        <div className="mainContentContainer">
-        <h1 className="MainContentHeading">Fun Facts About React</h1>
+        <div className="mainContentContainer" >
+        <h1 className="MainContentHeading" >Fun Facts About React</h1>
         <ul>
             <li>Was First Released in 2013</li>
             <li>Was Orginally Created by Jordan Walke</li>
