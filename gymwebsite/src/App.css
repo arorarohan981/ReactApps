@@ -1,0 +1,23 @@
+.stroke-text{
+  color:transparent;
+  font-family: Arial;
+  -webkit-text-stroke-width:1px ;
+  -webkit-text-stroke-color: black;
+}
+
+
+.btn{
+  background-color:yellow;
+  padding:1rem;
+  font-weight: bold;
+  border:4px solid transparent;
+  transition:300ms all;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+
+
+.btn:hover{
+  cursor:pointer;
+}

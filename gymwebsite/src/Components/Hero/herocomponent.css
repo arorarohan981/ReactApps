@@ -1,0 +1,179 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-hero {
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    background-color: #ececec;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.right-hero {
+    flex: 1;
+    background-color: #ececec;
+    position: relative;
+}
+
+.the-best-ad {
+    text-align: left;
+    margin-top: 2rem;
+    background-color: yellow;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.the-best-ad>div {
+    position: absolute;
+    background-color: yellowgreen;
+    width: 5.4rem;
+    height: 80%;
+    border-radius: 3rem;
+    left: 8px;
+    z-index: 1;
+}
+
+.the-best-ad>span {
+    z-index: 2;
+}
+
+.heroHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-overflow: inherit;
+    text-align: left;
+}
+
+.heroHeading>div:nth-of-type(3) {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+
+.figures {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.figures>div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.figures>div>span:nth-of-type(1) {
+    font-size: 2rem;
+
+}
+
+.figures>div>span:nth-of-type(2) {
+    font-size: 1.5rem;
+    color: #191919;
+}
+
+.herobuttons {
+    display: flex;
+    gap: 1rem;
+    font-weight: 400;
+}
+
+.herobuttons>:nth-child(1) {
+    color: black;
+    background-color: yellow;
+    width: 8rem;
+}
+
+.herobuttons>:nth-child(2) {
+    color: black;
+    background-color: transparent;
+    width: 8rem;
+    border: 2px solid yellow;
+}
+
+.right-hero>.btn {
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    color: black;
+    margin-top:1rem;
+}
+
+.heart-rate {
+    background-color:yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: fit-content;
+    align-items: start;
+    padding:1rem;
+    position: absolute;
+    border-radius: 5px;
+    right:4rem;
+    top:8rem;
+}
+
+
+.heart-rate>img{
+    width:2rem;
+}
+
+.heart-rate>span:nth-child(2){
+ font-weight: 600;
+}
+
+
+.heart-rate>span:nth-child(2){
+    font-size: 1.5rem;
+   }
+   
+.hero-image{
+    position:absolute;
+    right:6rem;
+    top:18rem;
+    width:30rem;
+}
+
+
+.calories{
+    display: flex;
+    gap:2rem;
+    background-color:yellow;
+    border-radius: 5px;
+    padding:1rem;
+    width:fit-content;
+    position:absolute;
+    top:37rem;
+    right:40rem;
+}
+.calories>img{
+    width:3rem;
+}
+
+.calories>div{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.calories>div>:nth-child(1){
+    font-weight: 800;;
+}
+.calories>div>:nth-child(2){
+    font-weight: 400;
+}

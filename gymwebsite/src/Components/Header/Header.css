@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+   background-color:#ececec;
+}
+
+.logo{
+    width:8rem;
+    height:8rem;
+}
+
+.headermenu{
+    list-style: none;
+    display: flex;
+    gap:2.5rem;
+    color:black;
+    align-items:center;
+}
+
+.headermenu>li{
+    font-size: 1.5rem;
+}
+.headermenu>li:hover{
+    cursor:pointer;
+    color:yellow;
+    cursor:pointer;
+
+}
