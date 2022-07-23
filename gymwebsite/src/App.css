@@ -5,6 +5,9 @@
   -webkit-text-stroke-color: black;
 }
 
+.App{
+  background-color:#ECECEC;
+}
 
 .btn{
   background-color:yellow;
