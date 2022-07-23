@@ -1,5 +1,6 @@
 import './App.css';
 import Herocomponent from './Components/Hero/Herocomponent';
+import Plans from './Components/Plans/Plans';
 import Programs from './Components/Programs/programs';
 import Reason from './Components/Reasons/reason';
 
@@ -9,6 +10,7 @@ function App() {
      <Herocomponent/>
      <Programs/>
      <Reason/>
+     <Plans/>
     </div>
   );
 }

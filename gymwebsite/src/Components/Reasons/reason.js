@@ -29,7 +29,7 @@ const Reason = () => {
                     <span>Choose Us</span>
                 </div>
                 <div className="details-r">
-                    <div><img src={tick}></img><span>OVER 50+ EXPERT COACHS</span></div>
+                    <div><img src={tick}></img><span>OVER 50+ EXPERT COACHES</span></div>
                     <div><img src={tick}></img><span>TRAIN SMARTER AND FASTER THAN BEFORE</span></div>
                     <div><img src={tick}></img><span>1 MONTH FREE PERSONAL TRAINING FOR NEW MEMBERS</span></div>
                     <div><img src={tick}></img><span>RELIABLE PARTNERS</span></div>
