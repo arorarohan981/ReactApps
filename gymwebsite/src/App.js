@@ -5,6 +5,7 @@ import Programs from './Components/Programs/programs';
 import Reason from './Components/Reasons/reason';
 import Testimonial from './Components/Testimonials/testimonial';
 import Join from './Components/JOin/Join'
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
      <Plans/>
      <Testimonial/>
      <Join/>
+     <Footer/>
     </div>
   );
 }

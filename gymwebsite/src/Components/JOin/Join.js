@@ -26,7 +26,7 @@ const Join = () => {
                 <span className="stroke-text">WITH US ?</span>
             </div>
         </div>
-        <div   className="right-j">
+        <div className="right-j">
             <form ref={form} className="email-container" onSubmit={sendemail}>
                 <input type="email" name="user_email" placeholder="Enter Your Email Address : "></input>
                 <button className="btn btn-j">Join Now</button>

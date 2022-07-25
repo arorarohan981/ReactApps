@@ -39,7 +39,7 @@ hr{
 
 .email-container>input{
     background-color:transparent;
-    border-radius: 3rem ;
+    border:none;
     outline:none;
     color:black;
     width:15rem;
