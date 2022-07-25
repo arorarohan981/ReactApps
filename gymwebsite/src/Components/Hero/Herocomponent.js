@@ -8,14 +8,22 @@ import hero_image_back from '../../assets/hero_image_back.png';
 import Heart from '../../assets/heart.png';
 import Calories from '../../assets/calories.png';
 import Logo from '../../assets/logo.png'
+import {motion} from 'framer-motion';
 
 const Herocomponent = () => {
+
+  const transition={type:'spring',duration:3}
   return (
     <div className='hero'>
+      
       <div className="left-hero">
         <Header />
         <div className="the-best-ad">
-          <div></div>
+          <motion.div
+          initial={{left:'238px'}}
+          whileInView={{left: '6px'}}
+          transition={{...transition,type:'tween'}}
+          ></motion.div>
           <span>Best Fitness Club in the Town</span>
         </div>
 
@@ -59,7 +67,11 @@ const Herocomponent = () => {
         <button className="btn">
         Join Now
         </button>
-        <div className="heart-rate">
+        <motion.div 
+        transition={transition}
+        initial={{right:"-0.8rem"}}
+        whileInView={{right:"4rem"}}
+        className="heart-rate">
           <img src={Heart} alt=""></img>
           <span>
             Heart Rate
@@ -67,16 +79,21 @@ const Herocomponent = () => {
           <span>
             116 Bpm
           </span>
-        </div>
+        </motion.div>
        <img src={hero_image} className="hero-image"></img>
-       <div className="calories">
+       <motion.div 
+       transition={transition}
+       initial={{right:"48rem"}}
+       whileInView={{right:"40rem"}}
+       className="calories">
           <img src={Calories} alt=""/>
           <div>
           <span>Calories Burned </span>
           <span>220 kcal</span>
           </div>
+       </motion.div>
        </div>
-       </div>
+   
     </div>
   )
 }
