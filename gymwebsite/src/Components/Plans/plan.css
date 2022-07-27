@@ -9,7 +9,8 @@
 
 .plans{
     display:flex;
-    align-items: center;justify-content:center;
+    align-items: center;
+    justify-content:center;
     gap:3rem;
 }
 
@@ -67,4 +68,16 @@ width:15rem;
 
 .plans>:nth-child(2)>svg{
     fill:black;
+}
+
+@media screen and (max-width:768px){
+    .plans{
+        flex-direction:column;
+        padding:0 !important;
+    }
+    .plans-container{
+        padding:0 !important;
+        gap:2rem;
+        margin-top:-10rem;
+    }
 }

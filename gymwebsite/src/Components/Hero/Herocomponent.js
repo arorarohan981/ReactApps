@@ -4,15 +4,15 @@ import '../Header/Header'
 import '../../App.css'
 import Header from '../Header/Header'
 import hero_image from '../../assets/hero_image.webp';
-import hero_image_back from '../../assets/hero_image_back.png';
 import Heart from '../../assets/heart.png';
 import Calories from '../../assets/calories.png';
-import Logo from '../../assets/logo.png'
 import {motion} from 'framer-motion';
+import NumberCounter from 'number-counter';
 
 const Herocomponent = () => {
 
-  const transition={type:'spring',duration:3}
+  const transition={type:'spring',duration:3};
+  const mobile = window.innerWidth<=768 ? true :false;
   return (
     <div className='hero'>
       
@@ -20,7 +20,7 @@ const Herocomponent = () => {
         <Header />
         <div className="the-best-ad">
           <motion.div
-          initial={{left:'238px'}}
+          initial={{left:mobile?'165px':'230px'}}
           whileInView={{left: '6px'}}
           transition={{...transition,type:'tween'}}
           ></motion.div>
@@ -44,15 +44,21 @@ const Herocomponent = () => {
         </div>
         <div className="figures">
           <div>
-            <span>+30</span>
+            <span>
+            <NumberCounter end={30} start={0} delay={4} preFix="+"/>
+            </span>
             <span>Expert Coaches</span>
           </div>
           <div>
-            <span>+1000</span>
+            <span>
+            <NumberCounter end={1000} start={0} delay={4} preFix="+"/>
+            </span>
             <span>Members Joined</span>
           </div>
           <div>
-            <span>+50</span>
+            <span>
+            <NumberCounter end={50} start={0} delay={4} preFix="+"/>
+            </span>
             <span>Fitness Programs</span>
           </div>
         </div>

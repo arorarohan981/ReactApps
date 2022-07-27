@@ -18,7 +18,6 @@ gap:1rem;
 
 .left-r>img{
     width:15rem;
-    
     height:30rem;
 }
 
@@ -69,4 +68,19 @@ gap:1rem;
 
 .partners>img{
     width:2.5rem;
+}
+
+@media screen and (max-width:768px) {
+    
+    .Reasons{
+        flex-direction:column;
+        padding:3rem !important;
+    }
+    .left-r{
+    flex-direction:column;
+    
+     align-items:center;
+        justify-content:center;
+    }
+
 }
