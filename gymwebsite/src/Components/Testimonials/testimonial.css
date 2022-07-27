@@ -112,6 +112,9 @@ top:0.9rem;
         position:relative;
         align-items:center;
     }
-
+    .arrows{
+        position:absolute !important;
+        top:10rem;
+    }
 
     }

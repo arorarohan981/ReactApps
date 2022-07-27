@@ -2,6 +2,7 @@ import React from 'react'
 import "./program.css";
 import {programsData} from '../../data/programsData.js';
 import RightArrow from '../../assets/rightarrow.png'
+import {Link} from 'react-scroll';
 
 const Programs = () => {
   return (
@@ -12,13 +13,18 @@ const Programs = () => {
             <span className="stroke-text">To Shape You</span>
         </div>
         <div className="program-categories">
-            {programsData.map((program)=>(
-                <div className="category">
+            {programsData.map((program ,i )=>(
+                <div className="category" key={i}>
                         {program.image}
                         <span>{program.heading}</span>
                         <span>{program.details}</span>
                         <div className="join-now">
-                            <span>Join Now</span>
+                            <span>
+                            <Link to='join-us'
+                                span={true}
+                                smooth={true}
+                            >Join Now
+                            </Link></span>
                             <img src={RightArrow}></img>
                         </div>
                     </div>
