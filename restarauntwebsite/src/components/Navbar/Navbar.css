@@ -112,26 +112,26 @@
 
 
 @media screen and (max-width: 1150px){
-    
+   
     .app__navbar-smallscreen{
         display:flex;
     }
     .app_navbar{
-        padding:1rem;
-     }
-     
-     .app_navbar-links{
-         display:none;
-     }
-     
-     .app__navbar-login{
-         display:none;
-     }
-     
-     .app_navbar-logo img {
-         width:110px;
-     }
-     
+   padding:1rem;
+}
+
+.app_navbar-links{
+    display:none;
+}
+
+.app__navbar-login{
+    display:none;
+}
+
+.app_navbar-logo img {
+    width:110px;
+
+}
 }
 
 
